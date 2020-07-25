@@ -16,6 +16,7 @@
 - Displayed a product list for products with the handle_display attribute set to Yes
 once extension installed change attribute(attribute code(handle_display) and lable(Display)) for your selected products to Yes(manual process) 
 - Added a custom configuration into the System Configuration to handle the limit number of products displayed on the customer page.(ecommistry/productlist/number_of_products). Store->Settings->Configuration->Ecommistry->ecommistry->ProductList->Number of Products
+<img src="https://raw.githubusercontent.com/jaiminmagento/M2Screenshot/master/ProductList/admin-config.png" />
 - Added a slider and show the products in it. Use the mode param to optionally select this view like www.yourdomain.com/ecommistry/productlist/index/?viewmode=slider
 
 
