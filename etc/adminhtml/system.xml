@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="ecommistry" sortOrder="999" translate="label">
+			<label>Ecommistry</label>
+		</tab>
+		<section id="ecommistry" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Ecommistry</label>
+			<tab>ecommistry</tab>
+			<resource>Ecommistry_ProductList::config_ecommistry_productlist</resource>
+			<group id="productlist" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>ProductList</label>
+				<field id="number_of_products" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Number of Products</label>
+					<comment>Number of products display on page</comment>
+				</field>
+				<field id="enabled" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Enabled</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

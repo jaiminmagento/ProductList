@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+<head>
+        <css src="Ecommistry_ProductList::css/owl.carousel.css"/>
+        <css src="Ecommistry_ProductList::css/owl.theme.css"/>
+</head> 
+<update handle="customer_account"/> 
+<body> 
+    <referenceBlock name="page.main.title"> 
+            <action method="setPageTitle"> 
+                <argument translate="true" name="title" xsi:type="string">ProductList</argument> 
+            </action> 
+     </referenceBlock>
+	 <referenceContainer name="content">
+            <block class="Ecommistry\ProductList\Block\Productlist\CustomCollection" name="custom.products.list" as="product_list"/>
+        </referenceContainer>
+</body> 
+</page>
