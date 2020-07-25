@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
 	<system>
-		<tab id="ecommistry" sortOrder="999" translate="label">
+		<tab id="ecommistry" sortOrder="1" translate="label">
 			<label>Ecommistry</label>
 		</tab>
 		<section id="ecommistry" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
